@@ -12,6 +12,3 @@ Template.tAbout.events({
    Students.remove(this._id);
   }
 });
-Students.insert({
-            firstName: firstName
-        }); students.remove(this._id);
