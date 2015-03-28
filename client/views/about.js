@@ -8,7 +8,10 @@ Template.tAbout.helpers({
     }
 });
 Template.tAbout.events({
-  'click .delete': function (students) {
-    firstName.remove(this._id);
+  'click .remove': function () {
+   Students.remove(this._id);
   }
 });
+Students.insert({
+            firstName: firstName
+        }); students.remove(this._id);
